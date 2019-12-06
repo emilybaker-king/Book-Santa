@@ -6,10 +6,11 @@
 
 body {
   font-family: 'Lora';
-  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/image.jpg");
+  background-image:linear-gradient(rgba(214, 153, 130, 0.65), rgba(229, 172, 153, 0.65)), url("../img/rustic-image.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  transform: rotate(180deg);
 }
 
 h1,
