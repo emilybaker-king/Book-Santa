@@ -1,5 +1,11 @@
+/*!
+ * Start Bootstrap - Business Casual v5.0.9 (https://startbootstrap.com/template-overviews/business-casual)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+
 body {
-  font-family: "Jacques Francois", serif;
+  font-family: 'Jacques Francois', serif;
   background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/rustic-image.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -12,11 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-<<<<<<< HEAD
-  font-family: 'Jacques Francois', serif;
-=======
   font-family: "StNicholas";
->>>>>>> e2f462dd4b891717f5958ac75f10bde8c6aa9870
 }
 
 p {
@@ -33,11 +35,13 @@ p {
   line-height: 1;
   font-family: "StNicholas";
 }
+
 .site-heading .site-heading-upper {
   display: block;
   font-size: 2rem;
   font-weight: 800;
 }
+
 .site-heading .site-heading-lower {
   font-size: 6.5rem;
   font-weight: 100;
@@ -52,11 +56,13 @@ p {
 .section-heading {
   text-transform: uppercase;
 }
+
 .section-heading .section-heading-upper {
   display: block;
   font-size: 1rem;
   font-weight: 800;
 }
+
 .section-heading .section-heading-lower {
   display: block;
   font-size: 3rem;
@@ -75,16 +81,20 @@ a :hover {
   background-color: rgba(43, 88, 68, 0.9);
   font-family: "StNicholas";
 }
+
 #mainNav .navbar-brand {
   color: #DC9E31;
 }
+
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
 }
+
 #mainNav .navbar-nav .nav-item.active .nav-link {
   color: #DC9E31;
 }
+
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
@@ -109,6 +119,7 @@ a :hover {
 .intro {
   position: relative;
 }
+
 @media (min-width: 992px) {
   .intro .intro-img {
     width: 75%;
@@ -127,6 +138,7 @@ a :hover {
     bottom: -2rem;
   }
 }
+
 @media (min-width: 1200px) {
   .intro .intro-text {
     width: 45%;
@@ -138,15 +150,17 @@ a :hover {
   padding-bottom: 5rem;
   background-color: rgba(220, 158, 49, 0.9);
 }
+
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
   background-color: rgba(255, 255, 255, 0.85);
 }
+
 .cta .cta-inner:before {
   border-radius: 0.5rem;
-  content: "";
+  content: '';
   position: absolute;
   top: -0.5rem;
   bottom: -0.5rem;
@@ -189,16 +203,19 @@ a :hover {
 .list-hours {
   font-size: 0.9rem;
 }
+
 .list-hours .list-hours-item {
   border-bottom: 1px solid rgba(220, 158, 49, 0.5);
-  padding-bottom: 0.25rem;
+  padding-bottom: .25rem;
   margin-bottom: 1rem;
   font-style: italic;
 }
+
 .list-hours .list-hours-item.today {
   font-weight: bold;
   color: #DC9E31;
 }
+
 @media (min-width: 992px) {
   .list-hours {
     width: 50%;
@@ -230,6 +247,7 @@ a :hover {
   background-color: #DC9E31;
   border-color: #DC9E31;
 }
+
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background-color: #ba8220;
   border-color: #ba8220;
@@ -238,5 +256,3 @@ a :hover {
 .font-weight-light {
   font-weight: 100 !important;
 }
-
-/*# sourceMappingURL=business-casual.css.map */
