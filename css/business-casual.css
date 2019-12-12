@@ -1,16 +1,9 @@
-/*!
- * Start Bootstrap - Business Casual v5.0.9 (https://startbootstrap.com/template-overviews/business-casual)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-casual/blob/master/LICENSE)
- */
-
 body {
-  font-family: 'Lora';
-  background-image:linear-gradient(rgba(214, 153, 130, 0.65), rgba(229, 172, 153, 0.65)), url("../img/rustic-image.jpg");
+  font-family: "Jacques Francois", serif;
+  background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../img/rustic-image.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  transform: rotate(180deg);
 }
 
 h1,
@@ -19,7 +12,11 @@ h3,
 h4,
 h5,
 h6 {
+<<<<<<< HEAD
   font-family: 'Jacques Francois', serif;
+=======
+  font-family: "StNicholas";
+>>>>>>> e2f462dd4b891717f5958ac75f10bde8c6aa9870
 }
 
 p {
@@ -32,22 +29,19 @@ p {
 
 .site-heading {
   margin-top: 5rem;
-  margin-bottom: 5rem;
   text-transform: uppercase;
   line-height: 1;
-  font-family: 'Raleway';
+  font-family: "StNicholas";
 }
-
 .site-heading .site-heading-upper {
   display: block;
   font-size: 2rem;
   font-weight: 800;
 }
-
 .site-heading .site-heading-lower {
-  font-size: 5rem;
+  font-size: 6.5rem;
   font-weight: 100;
-  line-height: 4rem;
+  line-height: 5rem;
 }
 
 .page-section {
@@ -58,13 +52,11 @@ p {
 .section-heading {
   text-transform: uppercase;
 }
-
 .section-heading .section-heading-upper {
   display: block;
   font-size: 1rem;
   font-weight: 800;
 }
-
 .section-heading .section-heading-lower {
   display: block;
   font-size: 3rem;
@@ -75,24 +67,24 @@ p {
   background-color: rgba(255, 255, 255, 0.85);
 }
 
+a :hover {
+  color: green;
+}
+
 #mainNav {
-  background-color: rgba(47, 23, 15, 0.9);
-  font-family: 'Raleway';
+  background-color: rgba(43, 88, 68, 0.9);
+  font-family: "StNicholas";
 }
-
 #mainNav .navbar-brand {
-  color: #e6a756;
+  color: #DC9E31;
 }
-
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
 }
-
 #mainNav .navbar-nav .nav-item.active .nav-link {
-  color: #e6a756;
+  color: #DC9E31;
 }
-
 @media (min-width: 992px) {
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 0.9rem;
@@ -101,7 +93,7 @@ p {
     color: rgba(255, 255, 255, 0.4);
   }
   #mainNav .navbar-nav .nav-item.active .nav-link:hover {
-    color: #e6a756;
+    color: #DC9E31;
   }
 }
 
@@ -117,7 +109,6 @@ p {
 .intro {
   position: relative;
 }
-
 @media (min-width: 992px) {
   .intro .intro-img {
     width: 75%;
@@ -136,7 +127,6 @@ p {
     bottom: -2rem;
   }
 }
-
 @media (min-width: 1200px) {
   .intro .intro-text {
     width: 45%;
@@ -146,19 +136,17 @@ p {
 .cta {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(220, 158, 49, 0.9);
 }
-
 .cta .cta-inner {
   position: relative;
   padding: 3rem;
   margin: 0.5rem;
   background-color: rgba(255, 255, 255, 0.85);
 }
-
 .cta .cta-inner:before {
   border-radius: 0.5rem;
-  content: '';
+  content: "";
   position: absolute;
   top: -0.5rem;
   bottom: -0.5rem;
@@ -201,19 +189,16 @@ p {
 .list-hours {
   font-size: 0.9rem;
 }
-
 .list-hours .list-hours-item {
-  border-bottom: 1px solid rgba(230, 167, 86, 0.5);
-  padding-bottom: .25rem;
+  border-bottom: 1px solid rgba(220, 158, 49, 0.5);
+  padding-bottom: 0.25rem;
   margin-bottom: 1rem;
   font-style: italic;
 }
-
 .list-hours .list-hours-item.today {
   font-weight: bold;
-  color: #e6a756;
+  color: #DC9E31;
 }
-
 @media (min-width: 992px) {
   .list-hours {
     width: 50%;
@@ -226,15 +211,15 @@ p {
 }
 
 .footer {
-  background-color: rgba(47, 23, 15, 0.9);
+  background-color: rgba(43, 88, 68, 0.9);
 }
 
 .text-primary {
-  color: #e6a756 !important;
+  color: #DC9E31 !important;
 }
 
 .bg-primary {
-  background-color: #e6a756 !important;
+  background-color: #DC9E31 !important;
 }
 
 .btn {
@@ -242,15 +227,16 @@ p {
 }
 
 .btn-primary {
-  background-color: #e6a756;
-  border-color: #e6a756;
+  background-color: #DC9E31;
+  border-color: #DC9E31;
 }
-
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #df902a;
-  border-color: #df902a;
+  background-color: #ba8220;
+  border-color: #ba8220;
 }
 
 .font-weight-light {
   font-weight: 100 !important;
 }
+
+/*# sourceMappingURL=business-casual.css.map */

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'StNicholas';
+  src: url('./fonts/StNicholas/StNicholas.eot') format('embedded-opentype'), 
+  url('./fonts/StNicholas/StNicholas.woff') format('woff'),
+   url('./fonts/StNicholas/StNicholas.ttf') format('truetype'), 
+   url('./fonts/StNicholas/StNicholas.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
