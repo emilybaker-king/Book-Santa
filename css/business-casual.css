@@ -280,3 +280,16 @@ a :hover {
 .fontParagraph {
   font-family: "StNicholas";
 }
+
+.calendar1 {
+  align-content: center;
+  text-align: center;
+
+}
+
+.calendar2 {
+  
+  width: 75vw;
+  height: 75vh;
+  
+}
